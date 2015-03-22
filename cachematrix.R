@@ -2,7 +2,7 @@
 
 ## makeCacheMatrix(x)
 ##
-## Arguments: x - square numeric or complex matrix containing the coefficients of the linear system.
+## Arguments: x -   square numeric or complex matrix containing the coefficients of the linear system.
 ##
 ## This function creates a matrix that can cache the computed value of
 ## its inverse.  To use it, pass in a matrix.  For example:
