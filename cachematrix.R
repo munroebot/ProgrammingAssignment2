@@ -35,11 +35,11 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set,get = get,setInverse = setInverse,getInverse = getInverse)
 }
 
-## cacheSolve(y)
+## cacheSolve(x)
 ##
-## Arguments: y - a makeCacheMatrix matrix
+## Arguments: x - a makeCacheMatrix matrix
 ##
-## This function returns the inverse of the special given matrix, y, which
+## This function returns the inverse of the special given matrix, x, which
 ## is of class makeCacheMatrix().  If the matrix has not changed, then the function
 ## returns the cached value of the inverse matrix.  If the matrix has changed, then
 ## it recomputes the inverse first.
